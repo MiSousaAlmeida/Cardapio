@@ -1,0 +1,75 @@
+html,body {
+    background-color: #bdc3c7;
+    margin: 0%;
+}
+
+#imagem-fundo {
+    background: url("img/capa-site.jpg");
+    height: 500px;
+    text-align: center; /*centralizar titulo e subtitulo*/
+    background-size:cover;
+}
+
+#titulo {
+    color: goldenrod;
+    padding-top: 7%;
+}
+
+p{
+    text-align: center;
+    
+}
+#acao {
+    color:goldenrod;
+    border: 2px solid;
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: crimson;
+}
+#acao:hover{
+    background-color: rgb(228, 71, 102);
+}
+
+.caixa {
+    background-color: #dfe6e9;
+    border: 5px solid goldenrod;
+    padding: 50px;
+    margin: 50px;
+    width: 40%;
+    border-radius: 15px;
+    display: inline-block;
+    width: 10%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}   
+
+h3 {
+    color: goldenrod;
+    text-align: center;
+    border: 2px dotted;
+    padding: 5px 10px 5px 10px;
+    background-color:  #dfe6e9;
+    font-size: large;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Sobre{
+    width: 100%;
+    color:goldenrod;
+    text-align: center;
+}
+
+#creditos{
+    background-color: crimson;
+    float: left;
+    color:#fff;
+    text-align: center;
+    border: goldenrod dotted;
+}
+.footer{
+    
+}
